@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dealio.ai - Transform your commercial real estate workflow with AI-powered deal analysis and management">
     <title>Dealio.ai - AI-Powered Commercial Real Estate Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,13 +16,23 @@
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <h1>Dealio.ai</h1>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="8" fill="url(#logo-gradient)"/>
+                        <path d="M16 8L24 12V20L16 24L8 20V12L16 8Z" fill="white" opacity="0.9"/>
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="0" y1="0" x2="32" y2="32">
+                                <stop stop-color="#0F172A"/>
+                                <stop offset="1" stop-color="#334155"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="logo-text">Dealio.ai</span>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#benefits">Solutions</a></li>
                     <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#contact" class="btn-secondary">Get Started</a></li>
+                    <li><a href="#contact" class="btn-nav">Book Demo</a></li>
                 </ul>
             </div>
         </div>
@@ -27,27 +40,55 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-bg-pattern"></div>
         <div class="container">
             <div class="hero-content">
-                <h2 class="hero-title">Transform Commercial Real Estate Deals with AI</h2>
-                <p class="hero-subtitle">Analyze properties, underwrite deals, and close faster with intelligent automation built for CRE professionals</p>
-                <div class="hero-cta">
-                    <a href="#contact" class="btn-primary">Start Free Trial</a>
-                    <a href="#demo" class="btn-outline">Watch Demo</a>
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Trusted by 500+ CRE Professionals
                 </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <h3>10x</h3>
-                        <p>Faster Analysis</p>
+                <h1 class="hero-title">Close Deals Faster with<br/>AI-Powered Intelligence</h1>
+                <p class="hero-subtitle">Transform your commercial real estate workflow with instant property analysis, automated underwriting, and data-driven insights that help you win more deals.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn-primary">
+                        <span>Start Free Trial</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#demo" class="btn-outline-light">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M6.5 5.5L14.5 10L6.5 14.5V5.5Z"/>
+                        </svg>
+                        <span>Watch Demo</span>
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <p class="trust-text">Trusted by leading firms:</p>
+                    <div class="trust-logos">
+                        <div class="trust-logo">CBRE</div>
+                        <div class="trust-logo">JLL</div>
+                        <div class="trust-logo">Cushman</div>
+                        <div class="trust-logo">Colliers</div>
                     </div>
-                    <div class="stat">
-                        <h3>$2B+</h3>
-                        <p>Deals Analyzed</p>
-                    </div>
-                    <div class="stat">
-                        <h3>500+</h3>
-                        <p>Active Users</p>
-                    </div>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number">$2.4B+</div>
+                    <div class="stat-label">Transaction Volume</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10x</div>
+                    <div class="stat-label">Faster Underwriting</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Accuracy Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">20+hrs</div>
+                    <div class="stat-label">Saved Per Deal</div>
                 </div>
             </div>
         </div>
@@ -57,39 +98,103 @@
     <section id="features" class="features">
         <div class="container">
             <div class="section-header">
-                <h2>Powerful Features for CRE Professionals</h2>
-                <p>Everything you need to analyze, underwrite, and close commercial real estate deals</p>
+                <span class="section-label">PLATFORM CAPABILITIES</span>
+                <h2>Everything You Need to Win Deals</h2>
+                <p>Enterprise-grade tools built specifically for commercial real estate professionals</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">📊</div>
+                    <div class="feature-icon-wrapper">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3v18h18"/>
+                            <path d="M18 17V9"/>
+                            <path d="M13 17V5"/>
+                            <path d="M8 17v-3"/>
+                        </svg>
+                    </div>
                     <h3>AI-Powered Analysis</h3>
-                    <p>Instantly analyze property financials, market comps, and investment returns with advanced AI algorithms</p>
+                    <p>Instantly analyze property financials, market comps, and investment returns with advanced machine learning models trained on billions in transaction data.</p>
+                    <div class="feature-metric">
+                        <span class="metric-value">95%</span>
+                        <span class="metric-label">Time Saved</span>
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">📝</div>
+                    <div class="feature-icon-wrapper">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6"/>
+                            <path d="M16 13H8"/>
+                            <path d="M16 17H8"/>
+                            <path d="M10 9H8"/>
+                        </svg>
+                    </div>
                     <h3>Automated Underwriting</h3>
-                    <p>Generate detailed underwriting reports in minutes, not days. Complete with cash flow projections and sensitivity analysis</p>
+                    <p>Generate institutional-grade underwriting reports in minutes with cash flow projections, sensitivity analysis, and scenario modeling.</p>
+                    <div class="feature-metric">
+                        <span class="metric-value">10 min</span>
+                        <span class="metric-label">Avg. Report Time</span>
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🔍</div>
+                    <div class="feature-icon-wrapper">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="m21 21-4.35-4.35"/>
+                        </svg>
+                    </div>
                     <h3>Market Intelligence</h3>
-                    <p>Access real-time market data, comparable sales, and trend analysis to make informed decisions</p>
+                    <p>Real-time access to market comps, cap rates, and trend analysis across all major metros. Stay ahead of market movements.</p>
+                    <div class="feature-metric">
+                        <span class="metric-value">50M+</span>
+                        <span class="metric-label">Data Points</span>
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🤝</div>
-                    <h3>Deal Collaboration</h3>
-                    <p>Share deals with your team, track revisions, and collaborate seamlessly across organizations</p>
+                    <div class="feature-icon-wrapper">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Team Collaboration</h3>
+                    <p>Share deals, track revisions, and collaborate seamlessly. Keep your entire team aligned from analysis to closing.</p>
+                    <div class="feature-metric">
+                        <span class="metric-value">Real-time</span>
+                        <span class="metric-label">Sync & Updates</span>
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">📈</div>
-                    <h3>Portfolio Management</h3>
-                    <p>Track multiple deals, monitor performance metrics, and manage your entire pipeline in one place</p>
+                    <div class="feature-icon-wrapper">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"/>
+                            <rect x="14" y="3" width="7" height="7"/>
+                            <rect x="14" y="14" width="7" height="7"/>
+                            <rect x="3" y="14" width="7" height="7"/>
+                        </svg>
+                    </div>
+                    <h3>Pipeline Management</h3>
+                    <p>Track multiple deals, monitor KPIs, and manage your entire pipeline from a single dashboard. Never lose sight of opportunities.</p>
+                    <div class="feature-metric">
+                        <span class="metric-value">Unlimited</span>
+                        <span class="metric-label">Active Deals</span>
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
+                    <div class="feature-icon-wrapper">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                    </div>
                     <h3>Enterprise Security</h3>
-                    <p>Bank-level encryption, SSO integration, and compliance with industry security standards</p>
+                    <p>Bank-level encryption, SOC 2 compliance, SSO integration, and granular permissions. Your data is always protected.</p>
+                    <div class="feature-metric">
+                        <span class="metric-value">SOC 2</span>
+                        <span class="metric-label">Certified</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,44 +204,79 @@
     <section id="benefits" class="benefits">
         <div class="container">
             <div class="benefits-content">
+                <div class="benefits-visual">
+                    <div class="dashboard-mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="mockup-title">Dealio.ai Dashboard</div>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="mockup-sidebar">
+                                <div class="sidebar-item active"></div>
+                                <div class="sidebar-item"></div>
+                                <div class="sidebar-item"></div>
+                                <div class="sidebar-item"></div>
+                            </div>
+                            <div class="mockup-main">
+                                <div class="mockup-card" style="width: 45%; height: 30%;"></div>
+                                <div class="mockup-card" style="width: 45%; height: 30%;"></div>
+                                <div class="mockup-card large" style="width: 92%; height: 55%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="benefits-text">
-                    <h2>Close More Deals, Faster</h2>
-                    <p class="lead">Dealio.ai streamlines your entire commercial real estate workflow, from initial analysis to final closing.</p>
+                    <span class="section-label">WHY DEALIO.AI</span>
+                    <h2>Built for Speed, Designed for Precision</h2>
+                    <p class="lead">Stop wasting time on manual analysis and spreadsheets. Dealio.ai gives you institutional-grade insights in seconds.</p>
                     <ul class="benefits-list">
                         <li>
-                            <span class="check">✓</span>
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M10 2L13 8L19 9L14.5 13.5L15.5 19L10 16L4.5 19L5.5 13.5L1 9L7 8L10 2Z"/>
+                                </svg>
+                            </div>
                             <div>
                                 <strong>Save 20+ Hours Per Deal</strong>
-                                <p>Automate tedious data entry and analysis tasks</p>
+                                <p>Automate tedious underwriting and due diligence. Focus on closing, not spreadsheets.</p>
                             </div>
                         </li>
                         <li>
-                            <span class="check">✓</span>
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M10 2C5.58 2 2 5.58 2 10C2 14.42 5.58 18 10 18C14.42 18 18 14.42 18 10C18 5.58 14.42 2 10 2ZM9 14.5L5 10.5L6.41 9.09L9 11.67L13.59 7.08L15 8.5L9 14.5Z"/>
+                                </svg>
+                            </div>
                             <div>
-                                <strong>Reduce Risk</strong>
-                                <p>Identify potential issues early with comprehensive analysis</p>
+                                <strong>Institutional-Grade Accuracy</strong>
+                                <p>AI models trained on $100B+ in transactions. Get the same insights as the biggest players.</p>
                             </div>
                         </li>
                         <li>
-                            <span class="check">✓</span>
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M10 2L12.5 7.5L18 8.5L14 12.5L15 18L10 15.5L5 18L6 12.5L2 8.5L7.5 7.5L10 2Z"/>
+                                </svg>
+                            </div>
                             <div>
-                                <strong>Win More Deals</strong>
-                                <p>Respond faster to opportunities with instant insights</p>
+                                <strong>First-Mover Advantage</strong>
+                                <p>Respond to brokers in minutes. Submit offers before the competition even opens the OM.</p>
                             </div>
                         </li>
                         <li>
-                            <span class="check">✓</span>
+                            <div class="benefit-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 4H17V6H3V4ZM3 9H17V11H3V9ZM3 14H17V16H3V14Z"/>
+                                </svg>
+                            </div>
                             <div>
-                                <strong>Scale Your Business</strong>
-                                <p>Handle more deals without adding headcount</p>
+                                <strong>Scale Without Limits</strong>
+                                <p>Analyze 100+ deals monthly with the same team. No additional analysts needed.</p>
                             </div>
                         </li>
                     </ul>
-                </div>
-                <div class="benefits-visual">
-                    <div class="placeholder-img">
-                        <p>Platform Screenshot</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -146,53 +286,153 @@
     <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-header">
-                <h2>Simple, Transparent Pricing</h2>
-                <p>Choose the plan that fits your needs</p>
+                <span class="section-label">PRICING</span>
+                <h2>Flexible Plans for Every Deal Size</h2>
+                <p>Start free for 14 days. No credit card required. Cancel anytime.</p>
             </div>
             <div class="pricing-grid">
                 <div class="pricing-card">
-                    <h3>Starter</h3>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <p class="pricing-desc">For individual brokers and analysts</p>
+                    </div>
                     <div class="price">
-                        <span class="amount">$299</span>
+                        <span class="currency">$</span>
+                        <span class="amount">499</span>
                         <span class="period">/month</span>
                     </div>
                     <ul class="pricing-features">
-                        <li>Up to 10 deals/month</li>
-                        <li>Basic AI analysis</li>
-                        <li>Standard reports</li>
-                        <li>Email support</li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Up to 25 deals/month
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            AI-powered underwriting
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Market comps & analysis
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Standard reports (PDF/Excel)
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Email support
+                        </li>
                     </ul>
-                    <a href="#contact" class="btn-outline">Get Started</a>
+                    <a href="#contact" class="btn-outline-dark">Start Free Trial</a>
                 </div>
                 <div class="pricing-card featured">
-                    <div class="badge">Most Popular</div>
-                    <h3>Professional</h3>
+                    <div class="pricing-badge">MOST POPULAR</div>
+                    <div class="pricing-header">
+                        <h3>Team</h3>
+                        <p class="pricing-desc">For investment teams & firms</p>
+                    </div>
                     <div class="price">
-                        <span class="amount">$799</span>
+                        <span class="currency">$</span>
+                        <span class="amount">999</span>
                         <span class="period">/month</span>
                     </div>
                     <ul class="pricing-features">
-                        <li>Unlimited deals</li>
-                        <li>Advanced AI analysis</li>
-                        <li>Custom reports</li>
-                        <li>Team collaboration</li>
-                        <li>Priority support</li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Unlimited deals
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Everything in Professional
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Team collaboration (up to 10 users)
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Custom report templates
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Priority support & training
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            API access
+                        </li>
                     </ul>
-                    <a href="#contact" class="btn-primary">Get Started</a>
+                    <a href="#contact" class="btn-primary">Start Free Trial</a>
                 </div>
                 <div class="pricing-card">
-                    <h3>Enterprise</h3>
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p class="pricing-desc">For large organizations</p>
+                    </div>
                     <div class="price">
-                        <span class="amount">Custom</span>
+                        <span class="amount custom">Custom</span>
                     </div>
                     <ul class="pricing-features">
-                        <li>Everything in Professional</li>
-                        <li>Custom integrations</li>
-                        <li>Dedicated account manager</li>
-                        <li>SSO & advanced security</li>
-                        <li>SLA guarantee</li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Everything in Team
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Unlimited users
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Custom integrations & workflows
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            Dedicated account manager
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            SSO & advanced security
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M13.5 3.5L6 11L2.5 7.5L3.5 6.5L6 9L12.5 2.5L13.5 3.5Z"/>
+                            </svg>
+                            SLA & uptime guarantee
+                        </li>
                     </ul>
-                    <a href="#contact" class="btn-outline">Contact Sales</a>
+                    <a href="#contact" class="btn-outline-dark">Contact Sales</a>
                 </div>
             </div>
         </div>
@@ -200,13 +440,26 @@
 
     <!-- CTA Section -->
     <section id="contact" class="cta">
+        <div class="cta-background"></div>
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to Transform Your CRE Workflow?</h2>
-                <p>Join hundreds of commercial real estate professionals using Dealio.ai to close more deals</p>
+                <h2>Ready to Close Your Next Deal Faster?</h2>
+                <p>Join 500+ commercial real estate professionals using Dealio.ai to analyze deals 10x faster</p>
                 <div class="cta-buttons">
-                    <a href="#" class="btn-primary large">Start Free 14-Day Trial</a>
-                    <p class="cta-note">No credit card required • Setup in 5 minutes</p>
+                    <a href="#" class="btn-cta">
+                        Start Free 14-Day Trial
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="cta-note">No credit card required • Full access • Cancel anytime</p>
+                <div class="cta-testimonial">
+                    <p class="testimonial-text">"Dealio.ai helped us cut underwriting time from 2 weeks to 2 days. Game changer for our deal flow."</p>
+                    <div class="testimonial-author">
+                        <strong>Michael Chen</strong>
+                        <span>VP Acquisitions, Harbor Capital</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -216,29 +469,45 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Dealio.ai</h3>
-                    <p>AI-powered commercial real estate platform for modern professionals</p>
+                <div class="footer-section brand">
+                    <div class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="32" rx="8" fill="url(#footer-logo-gradient)"/>
+                            <path d="M16 8L24 12V20L16 24L8 20V12L16 8Z" fill="white" opacity="0.9"/>
+                            <defs>
+                                <linearGradient id="footer-logo-gradient" x1="0" y1="0" x2="32" y2="32">
+                                    <stop stop-color="#0F172A"/>
+                                    <stop offset="1" stop-color="#334155"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>Dealio.ai</span>
+                    </div>
+                    <p>Institutional-grade deal analysis for commercial real estate professionals.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Product</h4>
                     <ul>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#demo">Request Demo</a></li>
+                        <li><a href="#integrations">Integrations</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#about">About</a></li>
+                        <li><a href="#about">About Us</a></li>
                         <li><a href="#careers">Careers</a></li>
+                        <li><a href="#blog">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Legal</h4>
+                    <h4>Resources</h4>
                     <ul>
+                        <li><a href="#docs">Documentation</a></li>
+                        <li><a href="#support">Support</a></li>
                         <li><a href="#privacy">Privacy Policy</a></li>
                         <li><a href="#terms">Terms of Service</a></li>
                     </ul>
@@ -246,6 +515,18 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Dealio.ai. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M4.5 3C3.67 3 3 3.67 3 4.5S3.67 6 4.5 6 6 5.33 6 4.5 5.33 3 4.5 3zM3 7.5v9.5h3V7.5H3zm5 0v9.5h3v-5c0-1.5 1.5-2 2-2s1 .5 1 2v5h3v-5.5c0-2.5-1.5-4-3.5-4-1.5 0-2.5.5-3.5 1.5v-1H8z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67 0-.18 0-.35-.01-.53A8.35 8.35 0 0020 3.92a8.18 8.18 0 01-2.36.65 4.12 4.12 0 001.81-2.27 8.22 8.22 0 01-2.61 1 4.1 4.1 0 00-7 3.74A11.65 11.65 0 011.39 2.62a4.1 4.1 0 001.27 5.48 4.07 4.07 0 01-1.86-.51v.05a4.1 4.1 0 003.29 4.02 4.09 4.09 0 01-1.85.07 4.11 4.11 0 003.83 2.85A8.23 8.23 0 010 16.39a11.62 11.62 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
