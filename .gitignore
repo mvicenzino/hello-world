@@ -1,0 +1,14 @@
+# Server logs
+server.log
+
+# System files
+.DS_Store
+*.swp
+*.swo
+
+# Node modules (if used later)
+node_modules/
+
+# Environment files
+.env
+.env.local
